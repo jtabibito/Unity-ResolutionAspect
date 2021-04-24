@@ -1,0 +1,3 @@
+# Unity不同分辨率UI适配
+将脚本挂在Canvas下,会自动获取到CanvasScaler组件计算适配因子,注册OnReaspectResolution事件
+可在分辨率改变时拿到像素的缩放因子用于坐标计算。
